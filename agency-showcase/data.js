@@ -1,0 +1,75 @@
+/* EDIT THIS FILE to rebrand a template for a real client. No build step required. */
+window.SHOWCASE = {
+  beauty: {
+    brand: 'ÉLAN', suffix: 'BEAUTY ATELIER', category: 'BEAUTY & NAILS',
+    eyebrow: 'THE ART OF FEELING BEAUTIFUL',
+    title: 'Beauty, in its\nsoftest form.',
+    greek: 'Η ομορφιά είναι μια εμπειρία.',
+    intro: 'Ένας ήρεμος χώρος αφιερωμένος σε εσένα. Nails, lashes και σύγχρονες υπηρεσίες ομορφιάς με προσωπική φροντίδα.',
+    accent: '#9d766a', city: 'Θεσσαλονίκη', address: 'Κέντρο, Θεσσαλονίκη', hours: 'Τρι–Σαβ · 10:00–19:00',
+    hero: 'photo-1522335789203-aabd1fc54bc9',
+    slides: ['photo-1632345031435-8727f6897d53','photo-1560066984-138dadb4c035','photo-1604654894610-df63bc536371'],
+    services: [{name:'Signature manicure', sub:'Περιποίηση & χρώμα',duration:'60 λεπτά',price:'από €25'}, {name:'Gel extensions', sub:'Τεχνική τελειότητα',duration:'90 λεπτά',price:'από €40'}, {name:'Lash lift', sub:'Φυσική ανάδειξη',duration:'50 λεπτά',price:'από €35'}, {name:'Brow ritual', sub:'Σχήμα & φροντίδα',duration:'30 λεπτά',price:'από €20'}],
+    quote: 'The little moments of care are everything.', quoteBy:'Η δική σου στιγμή, όπως την αξίζεις.',
+    imgAlt: 'Μακιγιάζ και υπηρεσίες ομορφιάς',
+    appointment: 'Κλείσε το ραντεβού σου', showcase: 'A quieter kind of luxury', sectionLabel:'THE EXPERIENCE',
+    before: 'Rituals, not routines.', after: 'Μικρές λεπτομέρειες. Μεγάλη διαφορά.',
+    booking: {mode:'demo', whatsapp:'', externalUrl:''}
+  },
+  flowers: {
+    brand: 'ANÉMONE', suffix: 'FLOWER STUDIO', category:'FLORAL DESIGN',
+    eyebrow: 'FLOWERS FOR THE UNFORGETTABLE',
+    title: 'A little wild.\nA lot of love.',
+    greek: 'Λουλούδια με προσωπικότητα.',
+    intro: 'Ανθοσυνθέσεις που αφηγούνται ιστορίες. Για τις μικρές, τις μεγάλες και τις πιο όμορφες στιγμές.',
+    accent:'#b94b62', city:'Θεσσαλονίκη', address:'Κέντρο, Θεσσαλονίκη', hours:'Δευ–Σαβ · 09:00–18:00',
+    hero:'photo-1490750967868-88aa4486c946',
+    slides:['photo-1487070183336-b863922373d4','photo-1525310072745-f49212b5ac6d','photo-1561181286-d3fee7d55364'],
+    services:[{name:'Custom bouquet',sub:'Ένα μπουκέτο μόνο για εσένα',duration:'30 λεπτά',price:'από €30'}, {name:'Wedding flowers',sub:'Η μέρα σας, ανθισμένη',duration:'45 λεπτά',price:'με προσφορά'}, {name:'Event styling',sub:'Εκδηλώσεις με ταυτότητα',duration:'45 λεπτά',price:'με προσφορά'}, {name:'Flower consultation',sub:'Πες μας την ιδέα σου',duration:'20 λεπτά',price:'δωρεάν'}],
+    quote:'Say it with flowers. Say it beautifully.',quoteBy:'Crafted with feeling, always.',imgAlt:'Προσεγμένες ανθοσυνθέσεις',
+    appointment:'Κλείσε συνάντηση',showcase:'Made to make you feel',sectionLabel:'OUR CREATIONS',
+    before:'Not just flowers.',after:'A feeling you can hold.',booking:{mode:'demo',whatsapp:'',externalUrl:''}
+  },
+  grooming: {
+    brand:'WOOF.',suffix:'GROOMING CLUB',category:'PET GROOMING',
+    eyebrow:'GOOD DOGS. GREAT HAIR DAYS.',
+    title:'Fresh fur.\nHappy hearts.',
+    greek:'Περιποίηση με πολλή αγάπη.',
+    intro:'Μπάνιο, κούρεμα και spa για τους τετράποδους φίλους μας. Με ηρεμία, φροντίδα και πολλές λιχουδιές.',
+    accent:'#6852a4',city:'Θεσσαλονίκη',address:'Κέντρο, Θεσσαλονίκη',hours:'Δευ–Σαβ · 09:00–19:00',
+    hero:'photo-1516734212186-a967f81ad0d7',
+    slides:['photo-1517849845537-4d257902454a','photo-1518717758536-85ae29035b6d','photo-1548199973-03cce0bbc87b'],
+    services:[{name:'Bath & fluff',sub:'Μπάνιο, στέγνωμα & χτένισμα',duration:'60 λεπτά',price:'από €25'}, {name:'Full groom',sub:'Κούρεμα & ολοκληρωμένη φροντίδα',duration:'90 λεπτά',price:'από €40'}, {name:'Puppy first visit',sub:'Μια γλυκιά πρώτη γνωριμία',duration:'45 λεπτά',price:'από €20'}, {name:'Nail & paw care',sub:'Πατουσάκια στην εντέλεια',duration:'20 λεπτά',price:'από €12'}],
+    quote:'Every pup deserves a little pampering.',quoteBy:'Γιατί είναι οικογένεια.',imgAlt:'Χαρούμενα σκυλιά και περιποίηση',
+    appointment:'Κλείσε περιποίηση',showcase:'Tail wags guaranteed',sectionLabel:'THE HAPPY TREATMENT',
+    before:'A spa day,',after:'but make it furry.',booking:{mode:'demo',whatsapp:'',externalUrl:''}
+  },
+  detailing: {
+    brand:'OBSIDIAN',suffix:'AUTO DETAIL LAB',category:'CAR WASH & DETAILING',
+    eyebrow:'PRECISION IS THE DIFFERENCE',
+    title:'Every detail.\nDialed in.',
+    greek:'Η τελειότητα βρίσκεται στη λεπτομέρεια.',
+    intro:'Premium detailing, βαθύς καθαρισμός και προστασία που αναδεικνύει την κάθε γραμμή του αυτοκινήτου σου.',
+    accent:'#d4f15d',city:'Θεσσαλονίκη',address:'Κέντρο, Θεσσαλονίκη',hours:'Δευ–Σαβ · 09:00–19:00',
+    hero:'photo-1503376780353-7e6692767b70',
+    slides:['photo-1492144534655-ae79c964c9d7','photo-1493238792000-8113da705763','photo-1618843479313-40f8afb4b4d8'],
+    services:[{name:'Exterior wash',sub:'Ασφαλές πλύσιμο & φινίρισμα',duration:'45 λεπτά',price:'από €25'}, {name:'Interior deep clean',sub:'Βαθύς εσωτερικός καθαρισμός',duration:'120 λεπτά',price:'από €90'}, {name:'Paint correction',sub:'Επαναφορά λάμψης',duration:'1 ημέρα',price:'από €180'}, {name:'Ceramic coating',sub:'Αντοχή & υδροφοβική προστασία',duration:'2 ημέρες',price:'με προσφορά'}],
+    quote:'Not clean. Reimagined.',quoteBy:'Engineered for the obsessed.',imgAlt:'Premium σπορ αυτοκίνητα και detailing',
+    appointment:'Κλείσε επίσκεψη',showcase:'The finish speaks.',sectionLabel:'OUR PROCESS',
+    before:'Built on precision.',after:'Finished to perfection.',booking:{mode:'demo',whatsapp:'',externalUrl:''}
+  },
+  barber: {
+    brand:'THE GENTLEMEN',suffix:'BARBER HOUSE',category:'BARBERSHOP',
+    eyebrow:'GOOD CUTS. BETTER STORIES.',
+    title:'Stay sharp.\nStay original.',
+    greek:'Το στυλ δεν είναι τυχαίο.',
+    intro:'Κλασική τέχνη, σύγχρονη αισθητική. Κούρεμα, fade και beard design με προσοχή σε κάθε λεπτομέρεια.',
+    accent:'#c49a62',city:'Θεσσαλονίκη',address:'Κέντρο, Θεσσαλονίκη',hours:'Τρι–Σαβ · 10:00–20:00',
+    hero:'photo-1503951914875-452162b0f3f1',
+    slides:['photo-1599351431202-1e0f0137899a','photo-1593702295094-ada0b0fcff0c','photo-1621605815971-fbc98d665033'],
+    services:[{name:'Classic haircut',sub:'Λούσιμο, κούρεμα & styling',duration:'40 λεπτά',price:'€20'}, {name:'Skin fade',sub:'Ακρίβεια στη λεπτομέρεια',duration:'45 λεπτά',price:'€23'}, {name:'Beard sculpt',sub:'Ξύρισμα & περιποίηση',duration:'30 λεπτά',price:'€15'}, {name:'The full ritual',sub:'Κούρεμα, γένια & hot towel',duration:'70 λεπτά',price:'€35'}],
+    quote:'A good haircut never goes out of style.',quoteBy:'Come as you are. Leave as yourself.',imgAlt:'Κλασικό μπαρμπέρικο και ανδρικό κούρεμα',
+    appointment:'Κλείσε καρέκλα',showcase:'The craft of looking good',sectionLabel:'THE BARBER EXPERIENCE',
+    before:'Tradition in every cut.',after:'Confidence in every look.',booking:{mode:'demo',whatsapp:'',externalUrl:''}
+  }
+};
